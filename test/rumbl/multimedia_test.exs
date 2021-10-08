@@ -2,8 +2,6 @@ defmodule Rumbl.MultimediaTest do
   use Rumbl.DataCase, async: true
   alias Rumbl.Multimedia
   alias Rumbl.Multimedia.Category
-  import Rumbl.UserFixtures
-  import Rumbl.MultimediaFixtures
 
   describe "categories" do
     test "list_alphabetical_categories/0" do

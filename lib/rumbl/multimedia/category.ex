@@ -13,8 +13,6 @@ defmodule Rumbl.Multimedia.Category do
     from c in query, order_by: c.name
   end
 
-
-
   @doc false
   def changeset(category, attrs) do
     category

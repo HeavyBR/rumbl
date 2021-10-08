@@ -3,7 +3,6 @@ defmodule Rumbl.AccountsTest do
 
   alias Rumbl.Accounts
   alias Rumbl.Accounts.User
-  import Rumbl.UserFixtures
 
   describe "register_user/1" do
     @valid_attrs %{

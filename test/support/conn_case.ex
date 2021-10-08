@@ -26,6 +26,9 @@ defmodule RumblWeb.ConnCase do
 
       alias RumblWeb.Router.Helpers, as: Routes
 
+      import Rumbl.UserFixtures
+      import Rumbl.MultimediaFixtures
+
       # The default endpoint for testing
       @endpoint RumblWeb.Endpoint
     end
